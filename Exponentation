@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int a=1,p=1,X,N;
+ clrscr();
+ printf("\nEnter the value of X and N");
+ scanf("%d%d",&X,&N);
+ while(a<=N)
+ {
+  p=p*X;
+  a++;
+ }
+ printf("\n%d times of %d is %d",N,X,p);
+ getch();
+}
